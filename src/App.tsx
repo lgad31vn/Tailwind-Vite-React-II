@@ -1,7 +1,12 @@
 import './App.css';
+import SideBar from './Compoonents/SideBar';
 
-function App() {
-  return <div className='bg-green-300'>Hey</div>;
-}
+const App = () => {
+  return (
+    <div className='flex'>
+      <SideBar />
+    </div>
+  );
+};
 
 export default App;

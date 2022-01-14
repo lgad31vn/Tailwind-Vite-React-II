@@ -12,8 +12,6 @@ const SideBar = () => {
   );
 };
 
-const SideBarIcon = ({ icon }) => (
-  <div className='sidebar-icon group'>{icon}</div>
-);
+const SideBarIcon = ({ icon }) => <div className='sidebar-icon'>{icon}</div>;
 
 export default SideBar;

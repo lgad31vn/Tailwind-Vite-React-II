@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* custom classes */
+  .sidebar-icon {
+    /* @apply combines utilities into a single class */
+    /* instead of properties and value like traditional css, 
+      we use @apply to combine tailwind properties */
+    @apply relative flex items-center justify-center h-12 w-12 my-2 mx-auto;
+  }
+}

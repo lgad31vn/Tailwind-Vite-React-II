@@ -1,6 +1,4 @@
-# Tailwind-Vite-React-II
-
-## Discord Nav Bar demo
+# Discord Sidebar demo
 
 ![image](https://user-images.githubusercontent.com/66233296/149610200-c07232fa-82e8-4e08-8054-6daad6363723.png)
 
